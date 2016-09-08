@@ -1,0 +1,28 @@
+OBJECT_SHARED Models/Airport/ndb.ac -74.23 40.593667 3.7 180
+OBJECT_SHARED Models/Airport/ndb.ac -74.217972 40.607333 1.03 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.248056 40.596111 -79 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.246667 40.566944 -145.43 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.242778 40.586667 -106.87 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.233472 40.612583 -174.4 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.203333 40.545833 -33.73 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.117222 40.619444 -73.74 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.115139 40.601222 4.76 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -74.114444 40.5975 -7.1 180
+OBJECT_SHARED Models/Airport/marker.ac -74.23 40.593667 3.7 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac -74.024444 40.609167 -417.07 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_04.ac -74.235 40.619167 -480.31 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.220105 40.564654 -371.99 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.219895 40.564234 -371.99 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.214203 40.620849 -446.03 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.213611 40.620833 -446.12 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.213019 40.620818 -446.22 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.206389 40.620278 -431.42 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.206389 40.620833 -431.42 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.206389 40.621389 -431.42 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.206389 40.621667 -431.42 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -74.199444 40.591389 -345.42 180
+
+
+
+OBJECT_STATIC verrazano.xml -74.0523431 40.6040503 0.14 112.9
+

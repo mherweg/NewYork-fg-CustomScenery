@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>WTC_North_Tower.ac</path>
+
+	<!-- The building in its "normal" state -->
+	<!-- The top-off ceremony occurred on 23 December 1970 -->
+	<!-- The North Tower collapsed on 11 September 2001, 10:28:25 -->
+	<animation>
+		<type>select</type>
+		<object-name>NorthTower</object-name>
+		<object-name>Antenna</object-name>
+		<condition>
+			<and>
+				<or>
+					<greater-than>
+						<property>sim/time/utc/year</property>
+						<value>1970</value>
+					</greater-than>
+					<and>
+						<equals>
+							<property>sim/time/utc/year</property>
+							<value>1970</value>
+						</equals>
+						<equals>
+							<property>sim/time/utc/month</property>
+							<value>12</value>
+						</equals>
+						<greater-than-equals>
+							<property>sim/time/utc/day</property>
+							<value>23</value>
+						</greater-than-equals>
+					</and>
+				</or>
+				<or>
+					<less-than>
+						<property>sim/time/utc/year</property>
+						<value>2001</value>
+					</less-than>
+					<and>
+						<equals>
+							<property>sim/time/utc/year</property>
+							<value>2001</value>
+						</equals>
+						<or>
+							<less-than>
+								<property>sim/time/utc/month</property>
+								<value>9</value>
+							</less-than>
+							<and>
+								<equals>
+									<property>sim/time/utc/month</property>
+									<value>9</value>
+								</equals>
+								<or>
+									<less-than>
+										<property>sim/time/utc/day</property>
+										<value>11</value>
+									</less-than>
+									<and>
+										<equals>
+											<property>sim/time/utc/day</property>
+											<value>11</value>
+										</equals>
+										<less-than-equals>
+											<property>sim/time/utc/day-seconds</property>
+											<value>52105</value>
+										</less-than-equals>
+									</and>
+								</or>
+							</and>
+						</or>
+					</and>
+				</or>
+			</and>
+		</condition>
+	</animation>
+
+	<!-- Night lighting -->
+	<animation>
+		<type>textranslate</type>
+		<object-name>NorthTower</object-name>
+		<property>sim/time/sun-angle-rad</property>
+		<step>1.57</step>
+		<factor>0.318471338</factor>
+		<axis>
+			<x>0</x>
+			<y>-1</y>
+		</axis>
+	</animation>
+
+	<!-- The building in its "memorial" state -->
+	<!-- The North Tower collapsed on 11 September 2001, 10:28:25 -->
+	<!-- The building simply disappears 24 hours later -->
+	<animation>
+		<type>select</type>
+		<object-name>NorthTower_memor</object-name>
+		<object-name>Antenna_memor</object-name>
+		<condition>
+			<and>
+				<equals>
+					<property>sim/time/utc/year</property>
+					<value>2001</value>
+				</equals>
+				<equals>
+					<property>sim/time/utc/month</property>
+					<value>9</value>
+				</equals>
+				<or>
+					<and>
+						<equals>
+							<property>sim/time/utc/day</property>
+							<value>11</value>
+						</equals>
+						<greater-than>
+							<property>sim/time/utc/day-seconds</property>
+							<value>52105</value>
+						</greater-than>
+					</and>
+					<and>
+						<equals>
+							<property>sim/time/utc/day</property>
+							<value>12</value>
+						</equals>
+						<less-than-equals>
+							<property>sim/time/utc/day-seconds</property>
+							<value>52105</value>
+						</less-than-equals>
+					</and>
+				</or>
+			</and>
+		</condition>
+	</animation>
+
+	<!-- Make sure the memorials don't interact with anything -->
+	<animation>
+		<object-name>NorthTower_memor</object-name>
+		<object-name>Antenna_memor</object-name>
+		<enable-hot type="bool">false</enable-hot>
+	</animation>
+
+</PropertyList>

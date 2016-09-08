@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>one-world-trade-center.ac</path>
+
+	<animation>
+		<type>select</type>
+		<object-name>NorthTower</object-name>
+		<object-name>Antenna</object-name>
+		<condition>
+			<or>
+				<greater-than>
+					<property>sim/time/utc/year</property>
+					<value>2013</value>
+				</greater-than>
+				<and>
+					<equals>
+						<property>sim/time/utc/year</property>
+						<value>2013</value>
+					</equals>
+					<equals>
+						<property>sim/time/utc/month</property>
+						<value>8</value>
+					</equals>
+					<greater-than-equals>
+						<property>sim/time/utc/day</property>
+						<value>30</value>
+					</greater-than-equals>
+				</and>
+			</or>
+		</condition>
+	</animation>
+</PropertyList>

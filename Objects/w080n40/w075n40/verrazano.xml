@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+        <path>verrazano.ac</path>
+
+
+        <model>
+                <name>obst_top_red01</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m> -0.06 </x-m>
+                  <y-m> 14.5 </y-m>
+                  <z-m>  212</z-m>
+                 
+                </offsets>
+        </model>
+
+    <model>
+                <name>obst_top_red02</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m> -0.06  </x-m>
+                  <y-m>  -16 </y-m>
+                  <z-m>  212 </z-m>
+                 
+                </offsets>
+        </model>
+
+    <model>
+                <name>obst_top_red03</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m> 1303 </x-m>
+                  <y-m> 14.5 </y-m>
+                  <z-m> 212 </z-m>
+                 
+                </offsets>
+        </model>
+
+    <model>
+                <name>obst_top_red01</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m> 1303  </x-m>
+                  <y-m> -16  </y-m>
+                  <z-m> 212 </z-m>
+                 
+                </offsets>
+        </model>
+
+</PropertyList>
+

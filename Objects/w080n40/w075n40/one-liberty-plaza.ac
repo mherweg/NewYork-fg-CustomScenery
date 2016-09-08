@@ -1,0 +1,59 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "default" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.2 0.2 0.2 shi 128 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "blah"
+loc 0 0 -0
+data 4
+blah
+texture "one-liberty-plaza.png"
+texrep 1.000000 1.000000
+crease 179.000000
+numvert 8
+78 226.47 -0
+0 226.47 -54
+0 226.47 -0
+78 226.47 -54
+0 0 -0
+0 0 -54
+78 0 -54
+78 0 -0
+numsurf 5
+SURF 0x00
+mat 1
+refs 4
+1 0.0013 0.937
+3 0.5636 0.937
+6 0.5636 0.003
+5 0.0013 0.003
+SURF 0x00
+mat 1
+refs 4
+0 0.5636 0.937
+2 0.0013 0.937
+4 0.0013 0.003
+7 0.5636 0.003
+SURF 0x00
+mat 1
+refs 4
+1 0.9973 0.9367
+5 0.9973 0.0012
+4 0.658 0.0012
+2 0.658 0.9367
+SURF 0x00
+mat 1
+refs 4
+0 0.8601 0.9403
+3 0.8601 0.9979
+1 0.0099 0.9979
+2 0.0099 0.9403
+SURF 0x00
+mat 1
+refs 4
+6 0.9973 0.0012
+3 0.9973 0.9367
+0 0.658 0.9367
+7 0.658 0.0012
+kids 0

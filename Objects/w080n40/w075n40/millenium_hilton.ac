@@ -1,0 +1,59 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "default" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.2 0.2 0.2 shi 128 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "blah"
+loc 0 0 -0
+data 4
+blah
+texture "millenium-hilton.png"
+texrep 1.000000 1.000000
+crease 179.000000
+numvert 8
+16 179.23 -0
+0 179.23 -40
+0 179.23 -0
+16 179.23 -40
+16 0 -0
+16 0 -40
+0 0 -0
+0 0 -40
+numsurf 5
+SURF 0x00
+mat 1
+refs 4
+7 0.611 0.0049
+1 0.611 0.989
+3 1.0002 0.989
+5 1.0002 0.0049
+SURF 0x00
+mat 1
+refs 4
+0 -0.0804 0.9974
+3 0.7177 0.9974
+1 0.7177 0.9974
+2 -0.0804 0.9974
+SURF 0x00
+mat 1
+refs 4
+4 -0.0804 0.0051
+5 0.7177 0.0051
+3 0.7177 0.9889
+0 -0.0804 0.9889
+SURF 0x00
+mat 1
+refs 4
+0 1.0002 0.989
+2 0.611 0.989
+6 0.611 0.0049
+4 1.0002 0.0049
+SURF 0x00
+mat 1
+refs 4
+2 -0.0804 0.9889
+1 0.7177 0.9889
+7 0.7177 0.0051
+6 -0.0804 0.0051
+kids 0
